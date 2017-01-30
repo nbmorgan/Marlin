@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "1.1.0-RC8"
+  #define SHORT_BUILD_VERSION "1.1.0-RC8 NBM TEVO"
 
   /**
    * Verbose version identifier which should contain a reference to the location
@@ -48,7 +48,7 @@
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2016-12-06 12:00"
+  #define STRING_DISTRIBUTION_DATE "2017-01-29 12:00"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
@@ -57,8 +57,8 @@
    * but not limited to: ADD, DELETE RENAME OR REPURPOSE any directive/option on
    * the configuration files.
    */
-  #define REQUIRED_CONFIGURATION_H_VERSION 010100
-  #define REQUIRED_CONFIGURATION_ADV_H_VERSION 010100
+  #define REQUIRED_CONFIGURATION_H_VERSION 010101
+  #define REQUIRED_CONFIGURATION_ADV_H_VERSION 010101
 
   /**
    * @todo: Missing documentation block
@@ -68,7 +68,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "3D Printer"
+  #define MACHINE_NAME "TEVO Tarantula"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -81,7 +81,7 @@
   /**
    * Default generic printer UUID.
    */
-  #define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+  #define DEFAULT_MACHINE_UUID "3e4bbb8c-e68c-11e6-bf01-fe55135034f3"
 
   /**
    * The WEBSITE_URL is the location where users can get more information such as

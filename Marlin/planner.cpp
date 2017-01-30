@@ -557,7 +557,7 @@ void Planner::check_axes_activity() {
       else
         z_fade_factor = 1.0;
     #else
-        constexpr float z_fade_factor = 1.0;
+        float BROKEN_constexpr z_fade_factor = 1.0;
     #endif
 
     #if ENABLED(MESH_BED_LEVELING)
