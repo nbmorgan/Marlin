@@ -735,8 +735,8 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS -0.30
-#define X_MAX_POS 200
-#define Y_MAX_POS 200
+#define X_MAX_POS 205
+#define Y_MAX_POS 240
 #define Z_MAX_POS 200
 
 //===========================================================================
@@ -805,8 +805,8 @@
  *   You specify the rectangle and the density of sample points.
  *   The result is a mesh, best for large or uneven beds.
  */
-#define AUTO_BED_LEVELING_3POINT
-//#define AUTO_BED_LEVELING_LINEAR
+//#define AUTO_BED_LEVELING_3POINT
+#define AUTO_BED_LEVELING_LINEAR
 //#define AUTO_BED_LEVELING_BILINEAR
 
 /**
